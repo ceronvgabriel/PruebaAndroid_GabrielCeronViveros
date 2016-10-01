@@ -112,6 +112,10 @@ public class Cinema extends AppCompatActivity {
             startActivity(new Intent(Cinema.this,AlreadySeen.class));
         }
 
+        if (id == R.id.action_logout) {
+            startActivity(new Intent(Cinema.this,MainActivity.class));
+        }
+
         return super.onOptionsItemSelected(item);
     }
 
