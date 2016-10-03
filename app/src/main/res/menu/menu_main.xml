@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.prueba.eleinco.pruebaandroid_gabrielceronviveros.MainActivity">
+    <item
+        android:id="@+id/action_disponibles"
+        android:orderInCategory="100"
+        android:title="@string/action_disponibles"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_vistas"
+        android:orderInCategory="100"
+        android:title="@string/action_vistas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>
